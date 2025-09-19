@@ -65,26 +65,27 @@
                                     </li>
 
                                      <li><a href="{{ route('about.index') }}">Hakkımızda </a></li>
-                                            <li><a href="archive.html">Arşiv</a></li>
+
+                                            <li><a href="{{ route('archive.index') }}">Arşiv</a></li>
                                    
                                  
-                                    <li><a href="">Kategoriler </a>
+                                    <li><a href="{{ route('business.index') }}">Kategoriler </a>
                                         <ul>
-                                            <li class="active"><a href="business.html">İşletme</a>
+                                            <li class="active"><a href="{{ route('business.index') }}">İşletme</a>
                                             </li>
-                                            <li><a href="entertainment.html">Eğlence</a>
+                                            <li><a href="{{ route('business.index') }}">Eğlence</a>
                                             </li>
-                                            <li><a href="features.html">Özellikler</a>
+                                            <li><a href="{{ route('business.index') }}">Özellikler</a>
                                             </li>
-                                            <li><a href="sports.html">Sports</a>
+                                            <li><a href="{{ route('business.index') }}">Sports</a>
                                             </li>
-                                            <li><a href="trending.html">Trend</a>
+                                            <li><a href="{{ route('business.index') }}">Trend</a>
                                             </li>
-                                            <li><a href="technology.html">Teknoloji</a>
+                                            <li><a href="{{ route('business.index') }}">Teknoloji</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{ route('blog.index') }}">Blog</a></li>
+                                  
                                     <li><a href="">Spor</a></li>
                              <li><a href="">Teknoloji</a></li>
                                 </ul>
